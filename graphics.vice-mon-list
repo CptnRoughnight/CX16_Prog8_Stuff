@@ -1,0 +1,40 @@
+al 89c .prog8_interned_strings
+al 8a5 .prog8_interned_strings:string_2
+al 89c .prog8_interned_strings:string_1
+al b22 .prog8_program_end
+al 8b1 .cbm
+al 8dd .sys
+al 945 .sys:cleanup_at_exit
+al 95a .sys:cleanup_at_exit:_exitcodeY
+al 956 .sys:cleanup_at_exit:_exitcode
+al 958 .sys:cleanup_at_exit:_exitcodeX
+al 953 .sys:cleanup_at_exit:_exitcodeCarry
+al 92d .sys:init_system_phase2
+al 977 .sys:reset_system
+al 95c .sys:restore_irq
+al 975 .sys:restore_irq:_orig_irqvec
+al 8dd .sys:init_system
+al b12 .prog8_lib
+al b13 .prog8_lib:program_startup_clear_bss
+al b14 .prog8_lib:strlen
+al b12 .prog8_lib:orig_stackpointer
+al b22 .prog8_bss_section_start
+al 9c2 .p8b_sprites
+al a7e .p8b_sprites:p8s_pos
+al 9c2 .p8b_sprites:p8s_init
+al b0d .p8b_sprites:prog8_init_vars
+al ae6 .p8b_sprites:p8s_show
+al 817 .prog8_entrypoint
+al 82e .p8b_main
+al 82e .p8b_main:p8s_start
+al 898 .p8b_main:p8s_start:p8l_label_1_repeat
+al 8b1 .cx16
+al 8b1 .cx16:vpoke
+al 8c5 .cx16:vpoke_or
+al 981 .diskio
+al 981 .diskio:vload
+al 982 .diskio:vload:internal_vload
+al 9bd .diskio:prog8_init_vars
+; breakpoint list now follows
+; 0 breakpoints have been defined
+del
